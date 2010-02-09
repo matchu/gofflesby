@@ -3,7 +3,9 @@ Gofflesby - a golfing test suite
 
 Quickly and easily test your code golf with a set of tests you create.
 
-## Write tests
+
+Write tests
+-----------
 
 Tests are composed of basic input/output files.
 
@@ -14,7 +16,9 @@ prompted for them later. See `ruby add_test.rb --help` for some more options.
 
 Tests end up saved in `tests/`, so they can be easily transferred to others.
 
-## Run tests
+
+Run tests
+---------
 
 Put your scripts in `scripts/`, and let Gofflesby do the rest :)
 
