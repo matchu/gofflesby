@@ -1,0 +1,4 @@
+procedures:
+  cpp: g++ {SCRIPT} -o {SCRIPT}.compiled && chmod +x {SCRIPT}.compiled && {SCRIPT}.compiled {IO} && rm {SCRIPT}.compiled
+  php: php {SCRIPT} {IO}
+  rb: ruby {SCRIPT} {IO}
